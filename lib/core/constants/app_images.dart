@@ -7,7 +7,13 @@ class AppImages {
     return instance;
   }
 
+  // login .........................................................
+
   String get loginBanner => 'assets/login_banner.png';
+
+  // dashboard .....................................................
+
+  String get customerIcon => 'assets/customer_care_icon.svg';
 
   String get homeIcon => 'assets/home_icon.svg';
 
@@ -25,6 +31,8 @@ class AppImages {
 
   String get activeAccountIcon => 'assets/active_account_icon.svg';
 
+  // home ..........................................................
+
   String get architect => 'assets/architect_png.png';
 
   String get landPromoters => 'assets/land_promoters.png';
@@ -41,11 +49,35 @@ class AppImages {
 
   String get bankLoan => 'assets/bank_loan.png';
 
+  String get volumeImage => 'assets/volume_image.png';
+
+  String get houseImage => 'assets/house_image.png';
+
+  // features ........................................................
+
   String get businessList => 'assets/business_list.png';
 
   String get socialMedia => 'assets/social_media.png';
 
-  String get volumeImage => 'assets/volume_image.png';
+  String get leadGen => 'assets/lead_gen.png';
 
-  String get houseImage => 'assets/house_image.png';
+  String get miniWeb => 'assets/mini_web.png';
+
+  String get specialPost => 'assets/special_post.png';
+
+  String get seo => 'assets/seo.png';
+
+  String get digitalBusiness => 'assets/digital_business.png';
+
+  String get cementParam => 'assets/cement_param.png';
+
+  String get blueParam => 'assets/blue_param.png';
+
+  // account ................................................................
+
+  String get myBusiness => 'assets/my_business.svg';
+
+  String get addBusiness => 'assets/add_business.svg';
+
+  String get addProduct => 'assets/add_product.svg';
 }

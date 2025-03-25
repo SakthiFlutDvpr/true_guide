@@ -34,4 +34,22 @@ class AppColors {
   Color get colorSF2 => Color(0xffE58D2F);
 
   Color get colorSF3 => Color(0xff41A3A4);
+
+  Color get colorD65656 => Color(0xffD65656);
+
+  Color get color8F8F8F => Color(0xff8F8F8F);
+
+  Color get color27B0D2 => Color(0xff27B0D2);
+
+  // account
+
+  List<Color> profileGradient = [Color(0xffFCFCFC), Color(0xffEFB5B5)];
+
+  List<Color> profileGradientTwo = [Color(0xffFFB790), Color(0xffF1EBE7)];
+
+  Color get color871A1A => Color(0xff871A1A);
+
+  Color get color30AC4B => Color(0xff30AC4B);
+
+  Color get color283BB9 => Color(0xff283BB9);
 }
