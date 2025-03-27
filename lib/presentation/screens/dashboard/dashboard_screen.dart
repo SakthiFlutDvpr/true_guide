@@ -23,7 +23,11 @@ class DashboardScreen extends StatelessWidget {
               state.index == 0
                   ? AppBar(
                     leading: IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        context.read<DashboardBloc>().add(
+                          DashboardIndexUpdateEvent(index: 3),
+                        );
+                      },
                       icon: Icon(Icons.menu, size: 24.sp),
                     ),
                     title: Column(
@@ -58,7 +62,11 @@ class DashboardScreen extends StatelessWidget {
                   : state.index != 3
                   ? AppBar(
                     leading: IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        context.read<DashboardBloc>().add(
+                          DashboardIndexPopupEvent(),
+                        );
+                      },
                       icon: Icon(
                         Icons.arrow_back,
                         size: 24.sp,
@@ -105,7 +113,7 @@ class DashboardScreen extends StatelessWidget {
                 ),
               ),
               child: IndexedStack(
-                index: 3,
+                index: state.index,
                 children: [
                   HomeView(),
                   CategoryView(),

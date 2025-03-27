@@ -39,3 +39,23 @@ final List featuresList = [
   {'image': AppImages().digitalBusiness, 'title': 'DIGITAL BUSINESS CARD'},
   {'image': AppImages().leadGen, 'title': 'LEAD & ENQUIRY GENERATION'},
 ];
+
+final List accountProductsList = [
+  {'image': AppImages().myBusiness, 'title': 'My Business'},
+  {'image': AppImages().addBusiness, 'title': 'Add Business'},
+  {'image': AppImages().addProduct, 'title': 'Add Product'},
+];
+
+final List accountList = [
+  {'image': AppImages().accSetting, 'title': 'Account Setting'},
+  {'image': AppImages().accDigitalCard, 'title': 'My Digital Card'},
+  {'image': AppImages().accSpecialPoster, 'title': 'Special Day Poster'},
+  {'image': AppImages().accWishlist, 'title': 'My WishList'},
+
+  {'image': AppImages().accMessage, 'title': 'Messages'},
+  {'image': AppImages().accDashboard, 'title': 'Dashboard'},
+  {'image': AppImages().accLanguage, 'title': 'Languages'},
+  {'image': AppImages().accSubscription, 'title': 'Subscription Management'},
+  {'image': AppImages().accFeedback, 'title': 'Feedback & Support'},
+  {'image': AppImages().accLogout, 'title': 'Logout'},
+];

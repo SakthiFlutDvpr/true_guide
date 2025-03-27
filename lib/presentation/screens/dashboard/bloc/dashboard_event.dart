@@ -7,3 +7,5 @@ final class DashboardIndexUpdateEvent extends DashboardEvent {
 
   DashboardIndexUpdateEvent({required this.index});
 }
+
+final class DashboardIndexPopupEvent extends DashboardEvent {}

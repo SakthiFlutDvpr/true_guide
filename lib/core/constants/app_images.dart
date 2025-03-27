@@ -80,4 +80,24 @@ class AppImages {
   String get addBusiness => 'assets/add_business.svg';
 
   String get addProduct => 'assets/add_product.svg';
+
+  String get accSetting => 'assets/acc_setting.svg';
+
+  String get accDigitalCard => 'assets/acc_digital_card.svg';
+
+  String get accSpecialPoster => 'assets/acc_special_poster.svg';
+
+  String get accWishlist => 'assets/acc_wishlist.svg';
+
+  String get accMessage => 'assets/acc_message.svg';
+
+  String get accDashboard => 'assets/acc_dashboard.svg';
+
+  String get accLanguage => 'assets/acc_language.svg';
+
+  String get accSubscription => 'assets/acc_subscription.svg';
+
+  String get accFeedback => 'assets/acc_feedback.svg';
+
+  String get accLogout => 'assets/acc_logout.svg';
 }

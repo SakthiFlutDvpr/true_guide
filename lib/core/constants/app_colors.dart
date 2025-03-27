@@ -52,4 +52,6 @@ class AppColors {
   Color get color30AC4B => Color(0xff30AC4B);
 
   Color get color283BB9 => Color(0xff283BB9);
+
+  Color get colorFFB790 => Color(0xffFFB790);
 }
