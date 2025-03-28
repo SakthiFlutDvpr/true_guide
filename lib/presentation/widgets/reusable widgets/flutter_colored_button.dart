@@ -44,7 +44,12 @@ class FlutterColoredButton extends StatelessWidget {
         ),
         overlayColor: AppColors().color742B88,
         textStyle:
-            textStyle ?? TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+            textStyle ??
+            TextStyle(
+              fontFamily: 'Lato',
+              fontSize: 14.sp,
+              fontWeight: FontWeight.w700,
+            ),
         backgroundColor:
             isDisable
                 ? Colors.grey
@@ -57,14 +62,7 @@ class FlutterColoredButton extends StatelessWidget {
               borderRadius: BorderRadius.circular(borderRadius ?? 8.r),
             ),
       ),
-      label: Text(
-        text,
-        style: TextStyle(
-          fontFamily: 'Lato',
-          fontSize: 14.sp,
-          fontWeight: FontWeight.w700,
-        ),
-      ),
+      label: Text(text),
 
       icon: icon,
       iconAlignment: iconAlignment,

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
 import 'package:true_guide/data/models/model_data.dart';
 import 'package:true_guide/presentation/widgets/reusable%20widgets/categories_list_card.dart';
+import 'package:true_guide/routes/app_routes.dart';
 
 class CategoryView extends StatelessWidget {
   const CategoryView({super.key});
@@ -14,9 +16,14 @@ class CategoryView extends StatelessWidget {
         shrinkWrap: true,
 
         itemBuilder: (context, index) {
-          return CategoriesListCard(
-            imgUrl: categories[index]['image'],
-            title: categories[index]['title'],
+          return GestureDetector(
+            onTap: () {
+              context.pushNamed(AppRoutes.categoryScreen);
+            },
+            child: CategoriesListCard(
+              imgUrl: categories[index]['image'],
+              title: categories[index]['title'],
+            ),
           );
         },
         separatorBuilder: (context, index) => SizedBox(height: 10.h),

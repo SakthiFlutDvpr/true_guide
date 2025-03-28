@@ -100,4 +100,30 @@ class AppImages {
   String get accFeedback => 'assets/acc_feedback.svg';
 
   String get accLogout => 'assets/acc_logout.svg';
+
+  // category ...........................................................
+
+  String get svfLogo => 'assets/svf_logo.png';
+
+  String get kbLogo => 'assets/kb_logo.png';
+
+  String get forwardIcon => 'assets/forward_icon.svg';
+
+  String get handGesture => 'assets/hand_gesture_icon.svg';
+
+  String get locationFilledIcon => 'assets/location_filled_icon.svg';
+
+  String get checklistIcon => 'assets/checklist_icon.png';
+
+  String get productOne => 'assets/product_one.png';
+
+  String get productTwo => 'assets/product_two.png';
+
+  String get productThree => 'assets/product_three.png';
+
+  String get image22 => 'assets/image 22.png';
+
+  String get image23 => 'assets/image 23.png';
+
+  String get image25 => 'assets/image 25.png';
 }

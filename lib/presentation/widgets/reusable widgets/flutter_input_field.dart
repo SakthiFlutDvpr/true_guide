@@ -30,6 +30,7 @@ class FlutterInputField extends StatelessWidget {
     this.cursorColor,
     this.autoFocus,
     this.maxLength,
+    this.labelText,
   });
   final TextEditingController? controller;
   final TextStyle? textStyle;
@@ -56,6 +57,7 @@ class FlutterInputField extends StatelessWidget {
   final Color? cursorColor;
   final bool? autoFocus;
   final int? maxLength;
+  final String? labelText;
 
   @override
   Widget build(BuildContext context) {
@@ -78,7 +80,7 @@ class FlutterInputField extends StatelessWidget {
       style:
           textStyle ??
           TextStyle(
-            //fontFamily: 'InriaSans',
+            fontFamily: 'Poppins',
             fontSize: 14.sp,
             color: Colors.black,
             fontWeight: FontWeight.w700,
@@ -89,14 +91,22 @@ class FlutterInputField extends StatelessWidget {
           horizontal: horizontalPadding ?? 8.0,
         ),
 
+        labelText: labelText,
+        labelStyle: TextStyle(
+          fontFamily: 'Poppins',
+          fontSize: 10.sp,
+          color: Color(0xff616161),
+          fontWeight: FontWeight.w500,
+        ),
+
         hintText: hintText,
         hintStyle:
             hintStyle ??
             TextStyle(
-              // fontFamily: 'InriaSans',
-              fontSize: 14.sp,
-              color: AppColors().color7C7C7C,
-              fontWeight: FontWeight.w700,
+              fontFamily: 'Poppins',
+              fontSize: 12.sp,
+              color: AppColors().color828080,
+              fontWeight: FontWeight.w500,
             ),
         counterText: '',
 

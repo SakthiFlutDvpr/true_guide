@@ -47,6 +47,8 @@ class AppColors {
 
   List<Color> profileGradientTwo = [Color(0xffFFB790), Color(0xffF1EBE7)];
 
+  List<Color> profileBackground = [Color(0xffFFFFFF), Color(0xffE99696)];
+
   Color get color871A1A => Color(0xff871A1A);
 
   Color get color30AC4B => Color(0xff30AC4B);
@@ -54,4 +56,20 @@ class AppColors {
   Color get color283BB9 => Color(0xff283BB9);
 
   Color get colorFFB790 => Color(0xffFFB790);
+
+  // category
+
+  List<Color> categoryBackgroundTwo = [Color(0xffEDEDED), Color(0xffEF8C8C)];
+
+  Color get colorEDEDED => Color(0xffEDEDED);
+
+  Color get color7D2699 => Color(0xff7D2699);
+
+  Color get color1D1D1D => Color(0xff1D1D1D);
+
+  Color get color828080 => Color(0xff828080);
+
+  // contacts
+
+  Color get color0A26B2 => Color(0xff0A26B2);
 }

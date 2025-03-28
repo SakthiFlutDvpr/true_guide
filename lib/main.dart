@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
             providers: [BlocProvider(create: (context) => DashboardBloc())],
             child: MaterialApp.router(
               debugShowCheckedModeBanner: false,
-
               routerConfig: AppRoutes().routes,
             ),
           ),
